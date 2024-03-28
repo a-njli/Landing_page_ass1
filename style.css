@@ -51,7 +51,7 @@ nav {
 
 .nav__links {
   list-style: none;
-  gap: 2rem;
+  gap: 2.5rem;
   display: none;
 }
 
@@ -120,7 +120,7 @@ header {
   font-size: 8rem;
   line-height: 4rem;
   font-weight: 500;
-  color: var(--global-color);
+  color: rgb(0, 123, 255);
 }
 
 .header__content h1 span {
@@ -131,7 +131,7 @@ header {
   text-decoration: none;
   margin-top: 2rem;
   color: var(--extra-light);
-  font-weight: 600;
+  font-size: 30px;
   position: relative;
 }
 
@@ -233,8 +233,9 @@ header {
   width: 100%;
   
 }
-.form-group{
-  color:#6498c2 ;
+
+.form-group textarea {
+  color: rgb(0, 123, 255); 
 }
 input,textarea{
   color: #6498c2 ;
@@ -254,7 +255,7 @@ textarea{
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  background-color: #ff7f50;
+  background-color: rgb(0, 123, 255);
   padding: 12px 30px;
   border-radius: 50px;
   font-family: "Dongle-light";
@@ -333,7 +334,7 @@ textarea{
   }
 
   .header__content h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 5rem;
   }
 
@@ -367,4 +368,17 @@ textarea{
   .card:hover {
     height: 250px;
   }
+}
+.social-icons {
+  /* Optionally, you can style the container */
+  display: flex;
+
+  align-items: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  background-size: cover; /* If using background images */
 }

@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+	rel="stylesheet"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+	rel="stylesheet"/>
+
+
     <title>Web Design Mastery | Digital Agency Portfolio Page</title>
   </head>
   <body>
@@ -16,8 +30,11 @@
         <li class="link"><a href="#">Home</a></li>
         <li class="link"><a href="#">Courses</a></li>
         <li class="link"><a href="#">Blogs</a></li>
-        <li class="link"><a href="#" class="contact__btn">Contact</a></li>
+       
       </ul>
+      <li class="link"><a href="#" button type="button" class="btn btn-primary btn-lg">Book Your Slot</button></a></li>
+
+      
     </nav>
     <header>
       <div class="header__container">
@@ -25,7 +42,8 @@
           <h1>
             Study <span>English</span>  <br /> with  live <span>Teachers</span>
           </h1>
-          <a href="#" class="start__project">Let's Learn</a>
+          <br>
+          <a href="#" button type="button" class="btn btn-primary btn-lg">Let's Learn</button></a>
         </div>
         <div class="footer__cards">
           
@@ -103,6 +121,14 @@
             />
           </div>
           <div class="form-group">
+            <input
+              type="phone"
+              name="contact"
+              id="contact"
+              placeholder="Enter Your Contact"
+            />
+          </div>
+          <div class="form-group">
             <textarea
               name="textarea"
               id="textarea"
@@ -112,18 +138,27 @@
             ></textarea>
           </div>
           <button type="submit">Start Learning Now</button>
+          <style>
+            /* CSS to change the color of input fields and textarea */
+            .form-group input[type="name"],
+            .form-group input[type="email"],
+            .form-group input[type="phone"],
+            .form-group textarea {
+              color: blue; /* Change the color here */
+            }
+          </style>
         </form>
       </section></main>
       <section class="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 mt-2 mb-2">
-                    <img src="images/contactus.jpeg" alt="" class="img-fluid" />
+                    <img src="images/key-benefits-of-eage.png" alt="" class="img-fluid" />
                 </div>
                 <div class="col-lg-6 col-md-6 col-12  mt-2 mb-2">
                     <h3 class="abtus">Keep In Touch</h3>
                     <p class="mt-5">
-                        <b>Email Address</b> <br> <span><a href="info@simplyenglish.ai">info@simplyenglish.ai</a></span>
+                        <b>Email Address</b> <br> <span><a href="wecare@eagetutor.com">wecare@eagetutor.com</a></span>
                     </p>
                     <p class="mt-2">
                         <b>Phone Number</b> <br> India : 9599060043<br>
@@ -133,10 +168,35 @@
                                 class="img-fluid rounded-lg"></a>
                         <img src="images/qr.png" alt="qr-img" width="100px" class="img-fluid ml-3">
                     </div>
+                    <div class="social-icons">
+                    <a class="linkedin" href="#"
+                          target="_blank">
+                          <i class="fab fa-linkedin" style="color: rgb(10,102,194);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#0A66C2'"></i></a>
+                      
+                    
+                        <a class="discord" href=" #" target="_blank"><i
+                            class="fab fa-facebook" style="color:#2e59f1;" onmouseover="this.style.color='white'" 
+                            onmouseout="this.style.color='#7289d9'"></i></a>
+                      
+                  
+                     
+                        <a class="github" href="#"
+                          target="_blank"><i class="fab fa-instagram" style="color:#d53aed;"  onmouseover="this.style.color='white'"
+                          onmouseout="this.style.color='#171515'"></i></a>
+                      
+                        <a class="youtube" href="#" target="_blank"><i
+                            class="fab fa-youtube" style="color:#FF0000;"  onmouseover="this.style.color='white'"
+                            onmouseout="this.style.color='#FF0000'"></i></a>
+                     
+                        <a class="twitter" href="#" target="_blank"><i
+                            class="fab fa-twitter" style="color: #1DA1F2";  onmouseover="this.style.color='white'"
+                            onmouseout="this.style.color='#1DA1F2'"></i></a>
+                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <div class="bg-dark text-white p-2">
